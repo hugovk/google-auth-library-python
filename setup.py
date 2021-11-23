@@ -62,7 +62,7 @@ setup(
     namespace_packages=("google",),
     install_requires=DEPENDENCIES,
     extras_require=extras,
-    python_requires=">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*",
+    python_requires=">=3.6",
     license="Apache 2.0",
     keywords="google auth oauth client",
     classifiers=[
